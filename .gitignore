@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+
+# Next.js build
+.next/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Build files
+/build/
+/out/
+
+# Custom Next.js files
+next.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+/coverage/
+
+# npm
+*.bak
+*.log
+
+# API keys and secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
