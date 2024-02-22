@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import TopCards from "./components/TopCards";
+import BarChart from "./components/BarChart"
+import RecentOrders from "./components/RecentOrders";
+import PieChart from "./components/PieChart"
 
 
 export default function Home() {
@@ -10,11 +13,18 @@ export default function Home() {
 
       <TopCards />
 
-      <div>
+      <div className="p-4 grid  gird-cols-1 md:grid-cols-3 gap-4 " >
 
         <BarChart />
 
+        <RecentOrders />
+
       </div>
+
+      <PieChart />
+
+
+
     </div>
   );
 }
