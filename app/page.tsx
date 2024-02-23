@@ -17,7 +17,7 @@ export default function Home() {
 
         <RecentOrders />
 
-        <PieChart />
+        {/* <PieChart /> */}
       </div>
     </div>
   );
