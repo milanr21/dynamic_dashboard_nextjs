@@ -6,7 +6,9 @@ import { Data } from "../data/data";
 const RecentOrders = () => {
   return (
     <div className="w-full col-span-1 m-auto p-4 h-[50vh] lg:h-[70vh] bg-white rounded-lg border overflow-scroll">
-      <h1>Recent Orders</h1>
+      <h2 className=" p-2 font-semibold text-lg md:text-xl tracking-widest ">
+        Recent
+      </h2>
 
       <ul>
         {Data.map((item) => (

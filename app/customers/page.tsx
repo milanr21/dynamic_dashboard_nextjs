@@ -11,19 +11,21 @@ const Customers = () => {
     return (
         <div className='bg-gray-200 min-h-screen' >
             <div className='flex justify-between p-4' >
-                <h2>Customers</h2>
-                <h2>Welcome to the Customers Page</h2>
+
+
+                <h2 className=' p-2 font-semibold text-xl md:text-2xl tracking-widest '  >Customers</h2>
+                <h2 className='bg-red-300 p-2 flex items-center justify-center  rounded-lg text-white tracking-widest  font-bold text-lg'  >Welcome to the Customers Page</h2>
 
 
 
             </div>
             <div className='m-4' >
-                <div className="bg-white w-full m-auto p-4 border border-black rounded-lg"  >
+                <div className="bg-white w-full m-auto p-4 border rounded-lg"  >
 
                     <div className=' p-2 my-2 flex-row bg-purple-400 rounded-lg uppercase
-                    tracking-wider font-normal justify-between items-center
+                    tracking-wider  justify-between items-center
                     
-                    grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2
+                    grid md:grid-cols-4 text-white font-semibold sm:grid-cols-3 grid-cols-2
                     
                     '   >
                         <span>Name</span>
@@ -51,12 +53,16 @@ const Customers = () => {
 
                                         <p className='pl-4' > {item.name.firstName} {item.name.lastName}</p>
                                     </div>
-                                    <p className='text-right sm:text-left'  >{item.status}</p>
+                                    <p className='text-right sm:text-left'  >
+                                        {item.name.firstName}@gmail.com
+
+
+                                    </p>
                                     <p className='hidden sm:grid'  >{item.date}</p>
 
 
                                     <div className='hidden sm:flex flex-row justify-between items-center ' >
-                                        <p className='hidden sm:grid'   >{item.method}</p>
+                                        <p className='hidden sm:grid uppercase tracking-widest font-medium '   >{item.method}</p>
                                         <BsThreeDotsVertical size={20} className="hover:text-white transition duration-300 cursor-pointer" />
                                     </div>
 

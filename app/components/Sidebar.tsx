@@ -34,22 +34,22 @@ const Sidebar = ({ children }) => {
 
 
                     </Link>
-                    <Link href="/" >
+                    <Link href="/customers" >
                         <div className=' text-black p-4 rounded-2xl bg-gray-300  inline-blck my-3 cursor-pointer hover:bg-red-300 '  >
                             <IoPersonOutline size={20} className='' />
                         </div>
 
 
                     </Link>
-                    <Link href="/" >
+                    <Link href="/orders" >
                         <div className=' text-black p-4 rounded-2xl bg-gray-300  inline-blck my-3 cursor-pointer hover:bg-red-300 '  >
-                            <RiShoppingBagFill size={20} className='' />
+                            <RiShoppingBagFill size={20} className='/orders' />
                         </div>
 
 
                     </Link>
 
-                    <Link href="/" >
+                    <Link href="#" >
                         <div className=' text-black p-4 rounded-2xl bg-gray-300  inline-blck my-3 cursor-pointer hover:bg-red-300 '  >
                             <SlSettings size={20} className='' />
                         </div>
